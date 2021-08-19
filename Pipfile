@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+databases = {extras = ["postgresql"], version = "*"}
+
+[dev-packages]
+selenium = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+sklearn = "*"
+bs4 = "*"
+
+[requires]
+python_version = "3.7"
